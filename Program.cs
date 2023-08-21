@@ -48,6 +48,13 @@
         {
             count--;
         }
+
+        public int getActualCountNumber()
+        {
+            Console.WriteLine(count.ToString());
+            return count;
+        }
+
         public void DoSomething(string msg)
         {
             Console.WriteLine(msg);
